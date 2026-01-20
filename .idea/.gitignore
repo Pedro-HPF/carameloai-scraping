@@ -8,3 +8,9 @@
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+# Ignore the scraped data
+/results.json/
+# Ignore the HTML dump we used for debugging
+/debug.html/
+# Ignore the compiled Go binary
+/*.exe/
